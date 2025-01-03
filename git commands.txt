@@ -1,0 +1,7 @@
+git commands:
+git init - this command initialize the repository
+git add filename.txt -this command will make untracked file to tracked file and store in staging area
+git commit -tracked file into local rapo
+git push-
+git clone url
+
