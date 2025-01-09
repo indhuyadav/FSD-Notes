@@ -1,0 +1,60 @@
+Front End:
+
+>> User Interface(UI) where the users can see and interact with the application
+>>client side
+>>Creating websites,designs and structures
+
+1.Javascript:
+
+>static and dynamic Websites:
+
+i.static websites remains same to everyone. ex:Fb login page
+
+ii.Dynamic: changes to everyone(data)
+
+ex: facebook,
+
+>>javascript is a scripting language
+>>it is used for form validations
+>> it is used to develop dynamic web pages
+>>released by "Netscape"
+>>current version-"ES13"
+>js runs the code line by line is called "synchronous" execution
+>> java script is written inside ,<script></script> tags in web pages
+>it is a object based and object oriented programming language used to cobert to static page to dynamic page
+
+Data Types:
+It is a value used in  programming language two types:
+1.Primitive      2.Non Primitive
+  string            class
+  Boolean           object
+  number            array
+  undefined         functions
+  null              map
+  big-Int           set
+  backtick
+
+-----------------------------------------
+Variables:
+--used to store the data
+--any kind of data 
+--same variable name can update the latest value
+--case sensitive
+> it is a dynamic nature
+Ex: var a=10
+ Scopes:
+-global --> 
+-local-scope/script-scope -->declare the variable inside the method
+-block-scope -->
+
+variables are divided into three types:
+var - redeclaration and reinitialization is possible
+let - reinitialization is possible
+const - redeclaration and reinitialization are not possible
+
+JavaScript is a client side programming language as well as server side.
+any program which runs on the browser it is a client side
+browser as a debugger, search engine, 
+js is a platform independent
+
+
