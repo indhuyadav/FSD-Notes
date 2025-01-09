@@ -1,0 +1,39 @@
+Functions in JavaScript:
+
+-->functions are first citizens in JavaScript
+-->functions are object in JavaScript
+-->functions are code reusable (write once and call it anywhere)
+
+Types of Functions:
+ 1.Function declaration statement/named function/pure function
+ 2.Function Expression
+ 3.Function Programming
+   a. Higher order function
+   b. call-back function
+ 4.Arrow Function
+ 5.Nested Function
+ 6.IIFE(Immediate Invoking Function Expression) 
+   a. Closure
+   b.lexical
+
+--------------------------------
+Function Declaration Statement:
+
+-->It is a set of instruction or block of code used to perform specific task
+syntax:
+
+function functionname(parameters,...){
+  set of instructions 
+  //local-scope
+}
+funtionname(arguments,....)
+
+function-keyword
+funtionname-identifier
+parameters-identifier
+arguments-data, values(datatypes)
+
+return keyword -->will stop the execution of the function
+Hoisting --> we can call function before function declaration
+------------------------------------
+
