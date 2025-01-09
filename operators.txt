@@ -1,0 +1,192 @@
+Operators:
+
+>it is a pre-defined symbol used to perform specific operation
+1.Arithmetic operator
+   +,-,*,/,%,++,--
+
+//increment
+-->post increment(after)
+  first value is assigned then increments
+
+Ex: 
+let a=10;
+console.log(a); //10
+console.log(a++); //10
+console.log(a++); //11
+
+-->pre increment(before)
+  first increment done then value is assigned 
+
+Ex: 
+let b=10;
+console.log(b); //10
+console.log(++b); //11
+
+2.Assignment Operator(short-hand)
+   +=,-=,*=,/=,%=,==
+
+ Ex: var a=10;
+     console.log(a); //10
+     a=a+10 --->a+=10; 
+
+3.Logical Operator
+  AND(&&)
+  OR(||)
+  NOT(!)
+
+4.Realtional operator
+  <, >, <=, >=, ==, ===, !=
+=== --> Strict equal, it will checks the datatype as well as value
+== -->it will checks only the value not the data type
+
+Ex: console.log(5==5) //true
+    console.log(5=="5) //true
+    
+    console.log(5===5) //true
+    console.log(5==="5") //false
+
+5.Tenary Operator
+-->it will accepts the three operands
+ 
+  syntax:
+  (condition) ? true-statement : false-statement
+
+----------------------------------
+Conditional Statements:
+
+>they are used to make some decision based on some condition
+
+simple-if
+if-else
+else-if-else(else-if-ladder)
+nested if
+switch
+
+simple-if(only haveb true statement):
+
+Ex: if(5<=10){
+       console.log("Hello world");
+    }
+
+if-else:
+
+ Ex: if(10<=20){
+        console.log("hello");
+      }
+     else{
+         console.log("bye");
+    }
+
+else-if-else:
+
+Ex:
+
+let a=10;
+let b=20;                                                                       
+let c=30;                                                                       
+                                                                               
+if(a>=b && a>=c){
+   console.log("a is greater");
+  }
+else if(b>=a && b>=c){                                        
+  console.log("b is greter");
+  }
+else{
+  console.log("c is greater");
+ }
+
+
+nested if:
+
+Ex:
+ let user=admin;
+ let password=8743;
+  
+ if(user==="admin"){
+   console.log("user valid");
+
+   if(password===8743){
+      console.log("password valid");
+      console.log("login-successful');
+ }
+   else{
+      console.log("password invalid");
+  }
+ } 
+ else{
+   console.log("login-unsuccessful");
+}
+
+
+Switch:
+ 
+Ex:
+let n=10;
+
+switch(n){
+ case1:{
+   console.log("Print 10");
+   break;
+}
+ case2:{
+   console.log("Print 2");
+   break;
+}
+ default:{
+   console.log("Invalid");
+}
+}
+
+Task:
+M,T-football
+W,T-cricket
+F- volleyball
+s-basket ball
+s-holiday
+ the input is given by user 
+
+
+-----------------------
+Looping Statements:
+-->is used to execute/iterate set of instruction 
+
+While loop:
+-->it will iterate set of instructions until condition becomes false
+syntax:
+while(condition){
+  set of instruction
+}
+
+do-while loop:
+-->it will execute first then it will check condition
+-->by default it takes one iteration
+syntax:
+do{
+ set of instruction
+}while(condition)
+
+
+for loop:
+-->three arguments
+initialization, condition, increment/decrement
+
+syntax:
+for(initialization; condition; increment/decrement){
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
