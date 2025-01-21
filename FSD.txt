@@ -56,5 +56,5 @@ JavaScript is a client side programming language as well as server side.
 any program which runs on the browser it is a client side
 browser as a debugger, search engine, 
 js is a platform independent
-
+JS is a synchronous(single threading)
 

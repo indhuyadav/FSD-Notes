@@ -12,9 +12,10 @@ Types of Functions:
    b. call-back function
  4.Arrow Function
  5.Nested Function
- 6.IIFE(Immediate Invoking Function Expression) 
    a. Closure
    b.lexical
+ 6.IIFE(Immediate Invoking Function Expression) 
+   
 
 --------------------------------
 Function Declaration Statement:
@@ -36,4 +37,110 @@ arguments-data, values(datatypes)
 return keyword -->will stop the execution of the function
 Hoisting --> we can call function before function declaration
 ------------------------------------
+
+Function Expression:
+
+assigning function as a value to an variable .
+it is used to perform specific task.
+Anonymous function--> function without a function name
+Hoisting is not possible in function expression, when you are trying to perform hoisting it gives reference error
+
+Ex: let a=function(){
+        console.log("hello")
+  }
+   console.log(a)
+   a()
+
+
+
+Q: create a function expression to perform arithmetic operation for three numbers and find the largest number
+----------------------------------------------------------------
+function Programming:
+
+>>it is used to perform generic task(multiple task)
+>>it can be created using function declaration statement or function expression or arrow function
+
+1.Higher-order function:
+>> a function which accepts another function as a argument
+
+2.call-back function:
+>> a function which passed as an argument to higher order function is called call-back function
+
+------------------------------------------------------------
+Arrow Function:
+ -->it was introduced in ES-6 version,2015 (ECMA-SCRIPT)-European computer manufacture association
+ --> it is used to reduce the number of lines in a code
+
+two types of return :
+
+ 1. implicit return arrow function
+-->no need of using return keyword
+=> this symbol is a fat arrow
+
+ex:
+
+let a= ()=>console.log("Hai");
+a()
+
+ 2.explicit return arrow function;
+-->return keyword is mandatory
+ Ex:
+
+let b=()=>{return "hello"}
+console.log(b)
+console.log(b());
+
+-->this is a keyword used to global scope inside the local scope
+ 
+-----------------------------------------------------
+Nested Function:
+
+-->A function inside the another function is called nested function
+
+1.lexical-scope/scope-chain:
+--> the ability of js engine search for variable in local scope if it is not available it will start searching global scope
+
+2.closure:
+-->The binding of child function to the child function to parent function is called closure (or) the binding of child function lexical scope to the parent function called as closure
+-->closure is having a copy of parent
+ 
+Disadvantage of closure:
+-->memory wastage 
+   >whenever we call the child function multiple times ,multiple times closure will be created in heap area that leads to memory wastage
+Ex:
+function parent(){
+    let a="Welcome";
+    function child(){
+        console.log(a);
+        
+    }
+    return child
+}
+parent()()
+parent()()
+parent()()
+
+
+In JavaScript there is global execution context it will be divided into two types
+i.variable state
+ii.functional state
+
+------------------------------------------------------------------------
+IIFE (Immediate invoking function expression)
+
+
+-->it will be called immediately once function object is created
+syntax:
+ (expression-function)()
+
+Ex:
+ (function(){
+   console.log("hello")
+})();
+
+
+(()=> {
+   console.log("HII")
+})();
+
 

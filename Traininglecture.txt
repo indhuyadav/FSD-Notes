@@ -1,0 +1,28 @@
+git commands:
+
+commands to push the code to remote repo
+
+git init - this command initialize the repository
+git add filename-to add untracked files to tracked file(staging area)
+git commit -m "mgs" : sending tracked file to local repo
+git remote add origin URL
+git push -u origin master
+git clone URL-it is used to copy of repo into local machine
+git status-it is used to check
+git config --global user.email "example@gmail.com"
+clear
+git add . - to get all files
+cd foldername
+
+
+git-is a version control system
+GitHub-is a cloud or a website to store the data and we can backup, it is a remote
+
+
+VS CODE TO PUSH THE FILES TO GITHUB
+
+
+
+
+
+
