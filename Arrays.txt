@@ -1,0 +1,75 @@
+Arrays  in JavaScript:
+
+-->Arrays are heterogeneous in JS
+-->Array in JS is used to store the data of an different datatypes
+
+>to create an array in JS We have two ways:
+
+1.Declaration Way:
+
+Ex: let arr=[10,"hello",true,1n,undefined]
+console.log("arr");
+
+2.Using new Keyword:
+
+let arr1=new Array(10,556,499)
+console.log(arr1);
+ 
+--------------------------------------------------------------------------------
+Objects in JavaScript:
+
+-->Objects are used to store the data in the form of key and value pair
+
+1.Declaration way
+
+2.Using constructor function-used to create object
+--> this keyword use in the constructor: it targets the current object
+-->we cannot use the arrow function to create the constructor function
+
+----------------------------------------------------------------------------------------------------
+Asynchronous:
+
+-->Making a way for other function to execute first
+-->Asynch is not work all the time in some situations that time it will take the help form promise
+
+Two Methods:
+1. setTimeout(call back function, delay-time)-the output will be one time
+2.setInterval(call back function, delay-time) - the output will be after every delay time
+
+-->it will present inside window object
+-----------------------------------------------------------------------------------------------------
+Promise:
+
+--> It is an object 
+-->It is used to look after asynchronous function
+-->promise is having a three phase
+
+syntax:
+  new Promise((resolve, reject)=>{
+        --asynchronous function code--
+    })
+  .then(cbf)
+  .catch(cbf)
+
+
+  1.pending phase -either it will be resolve or reject
+
+  2.resolve/fulfil phase  -when the asynchronous is working properly the promise will return resolve
+    --> when the promise will return the resolve accepts then method, then is higher order method it will accepts call back function
+
+  3.reject phase  -when the asynchronous is not working properly the promise will return reject
+    -->reject will accept the catch method
+----------------------------------------------------------------------------------------------
+Promise Chaining:
+
+-->using multiple then methods is called promise chaining
+-->async and await is used to avoid promise chaining
+
+
+
+
+
+
+
+
+

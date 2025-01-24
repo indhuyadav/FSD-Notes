@@ -45,6 +45,59 @@ _________________________________
 |                     |          |
 
 
+-->Dom as two mwthods:
+1.direct access
+2.indirect access
+
+--------------------------------------
+indirect access(methods of dom):
+
+1.document.getElementById("value")
+2.document.getElementsByClassName("value")
+3.document.getElementsByTagName("value")
+4.document.getElementsByName("value")
+5.document.querySelector("value")
+6.document.querySelectorAll("value")
+
+-->HTMLcollection store only tags
+-->NodeList store plaintext as well as tags
+
+document querySelector:
+
+--> we have pass value with css symbol
+-->will return reference of first-element
+
+
+document.querySelectorAll:
+
+-->we have pass value with css symbol
+-->will return reference in a node-list
+------------------------------------------------------------------------
+
+Events in DOM:
+
+-->It is an action perform by End-user on a webpage
+
+Types:
+
+1.Key-board event
+  i. key-up event
+  ii. key-down event
+  iii. key-press event
+
+2.mouse event
+ a. onmouseover event
+ b. onmouseleave event
+ c. dbclick
+
+3.form event
+  a. input event
+  b. blur event
+  c. focus event
+
+4,pointer event
+ a. click event
+
 
 
 
