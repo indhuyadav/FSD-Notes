@@ -1,0 +1,50 @@
+DOM(Document Object Model):
+
+-->                                              BOM(browser object model)
+                                                           | 
+                                                 Window---root element of BOM
+                                                           |
+
+                         ____________________________________________________________________________________________________________________________________________________________
+                             |             |          |                     |                                 |                                                  |           |       
+  API'S                    screen     history    fetch --fetch apis    navigator --all your devices   navigation --is used to fetch current location         storage       DOM  
+ 
+                                                                                                                                                                            
+
+                                                                                                                                                                                                                                                                                                                                                 
+                                                                                    
+        DOM
+         |
+       Document --root element
+         |
+       html     ---node,   all are stored in a tree structure         |
+  head           body
+   |              |
+meta  title      all-tags
+
+
+-->It is an object
+-->Is an api provided by window
+-->having root-element
+
+-->having life-span: until page-reloads
+
+-->DOM is used to create, update/modify, delete an element and we can provide style  using DOM
+-------------------------------------------------------------------------------------------------
+
+>How to convert the html structure into a DOM:
+
+            document
+              |
+            html
+     _________|__________
+     |                   |
+  head                 body
+   |                    |
+_________________________________
+|                     |          |
+
+
+
+
+
