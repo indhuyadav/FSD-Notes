@@ -97,6 +97,29 @@ Types:
 
 4,pointer event
  a. click event
+--------------------------------------------------------------------------------
+Manipulation/Modification of DOM:
+
+
+-->is used to update/modify an DOM
+
+//method
+-->createElement()
+
+to use these method follow two methods:
+
+ step 1:
+    -->create an element using createElement() method
+    Eg:
+       let a=document.createElement("h1")
+       console.log(a)
+       a.textContent= "hello-world"
+
+step 2:
+ -->append element to the parent element using append/appendChild() method
+    
+     Eg:
+      document.body.appendChild(a)
 
 
 
