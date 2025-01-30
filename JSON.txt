@@ -1,0 +1,32 @@
+JSON(Java-Script object notation):
+-----------------------------------------
+-->JSON it is a plaintext file used to store data in the form of key and value pair.
+--> where all the keys should be enclosed in a double quote.
+
+-->JSON having two methods:
+  1.stringify():
+     -->will convert to object to JSON format.
+   
+  2.parse():
+    -->will convert to JSON to object format.
+
+-->how to create a JSON:
+  step-1: create a .json file
+  step-2: create a data in the form of key and value pair and key should be enclosed with double quotes.Has a value we should use undefined and function data-type.
+          -->[{},{}<{},{},...] (array of object)  
+      
+-->To fetch the JSON there are 3-ways:
+  1.fetch() method  - it is nothing but a promise
+  2.AJAX
+  3.Axios
+
+window.fetch()
+
+Htpp response status code:
+
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
+  
