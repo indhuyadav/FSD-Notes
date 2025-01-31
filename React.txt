@@ -1,0 +1,158 @@
+ReactJS is a library
+AngularJs is a framework
+
+-->frame work is a collection of libraries.  Ex: AngularJS ,bootstrap, tailwindCSS.
+
+-->library it is collection of methods or function  Ex: Reactjs, jQuery, Node.js,popperJS
+
+-->it is a library
+-->it is used to develop a single-page-application
+-->it is a component bases application(components are reusable)
+-->react is declarative
+-->react will renders components on the web-page without page re-loading
+
+------------------------------------------------------------------------------------
+How React Works:
+
+react code---->virtual dom(copy of real dom)--->Virual dom is comparing with real dom(that is one-to-one mapping)
+
+-->react using diffing algorithm
+-->react uses a MVC architecture
+
+React uses three dependencies by defaultly
+1.react:
+ ->createElement,all-hooks
+
+2.react-dom:
+ ->used to create virtual Dom
+
+3.react-scipt:
+ ->is used to run ,debug, test, eject react-app
+
+-->React was introduced in 2013 ,introduced by facebook(meta) , Jorden walke 
+-->latest version using react is react 19
+
+----------------------------------------------------------------------------------
+How to Create React Application:
+
+1.CDN way
+2.node.js way
+
+ a.npm
+   -->is used to install ,update,delete packages in a js.
+   -->packages will be installed globally.
+   --yarn ,vite 
+
+ EX: npm install -g create-react-app
+     create react-app project-name
+     npm create vite@latest ----->install the latest version of react
+
+ b.npx:
+  -->is used to execute the packages without installing it.
+  -->no need of globally while installing packages.
+
+ Ex:
+   npx create-react-app project-name
+   
+
+Steps to create project:
+
+create folder:
+ - open New terminal change to command prompt
+ -cd folder name day1
+ -npm create vite@latest
+ -project name: 
+ -select a framework:react
+ -select a variant :javascript
+ -cd project name
+ -npm install
+ -npm run dev
+ -o
+
+proceed:y
+enter the package name: react
+
+--------------------------------------------
+React folder Structure:
+
+
+node-modules folder:-
+ --> all the packages and third-party libraries will be present.
+
+
+src folder:
+  --> it is a main folder 
+  -->used for creating components.
+
+
+index.html file:
+ -->it is a root file
+
+
+eslint(ecma script lint):
+  -->it is a tool used to debug purpose.
+
+package.json file:-
+  -->it stores all dependencies and third party library
+
+README.md file:
+  -->it is used for GitHub
+
+babel folder in node_modules:
+ -->will convert advanced concept of js to old version of js
+
+----------------------------------------------------------
+Components in React:
+
+-->components are basic building blocks in react.
+-->components are reusable.
+
+components are two-types:
+
+ 1.class based component
+ 2.function based component / presentational component / dumb component
+
+
+1.class based component:
+ -->it is a es6 class in js.
+ -->it uses react-life-cycle.
+ -->it is a statefull component(in state by default having state and props)
+ -->uses a render() method.
+    render() method will renders components on the web-page.
+-->it uses a constructor to store data and extends keyword.
+
+
+import React from 'react'
+class demo extends React.Component {
+  render(){
+     return <h1> I am class based component </h1>
+  }
+}
+export default demo;
+
+
+2.function based component:
+ -->it is javascript pure function.
+ -->it does not react-life-cycle.
+ -->it doesn't take any render() method.
+ -->it is a stateless
+    .after react 16.8 function based component  becomes statefull component because of hooks.
+ -->there is no constructor and extends in function based component
+ 
+
+import React from 'react'
+function demo(){
+  return(
+    <h1> function based component <h1>
+  )
+}
+export default demo
+
+
+import React from 'react'
+let  demo=()=> {
+  return(
+    <h1> function based component <h1>
+  )
+}
+export default demo
