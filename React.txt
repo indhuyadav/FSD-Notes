@@ -577,11 +577,37 @@ useEffect(callbackfunction ,dependency)
 2.empty dependency -->component will render only once
 3.dependency with value(state , props) -->component will render only when the value changes
 
+--------------------------------------------------------------------------------------
+Browser Routers in react:
+
+--> it is library
+-->it is use to interact one component to multiple component.
+-->Routes -- it is a pre-defined component used to wrap Route.
+-->Route --is a pre-defined component used routing purpose.
+-->Browser Router -- is a pre-defined component used to wrap Routes.
+-->useNavigate() -- it is used to navigate component.
+-->useParmes() hook -- it is used to target pre-defined variable.
+--> <Link></Link> -- is used for linking purpose
+--> <outLet></outLet> -- used for place-holder.
 
 
+--------------------------------
+what is single page application:-
+
+-->single page application is used to link one component to another component without a page reloading.
 
 
+--------------------------------------------------------------
+to install json :
 
+--> npm install -g json-server
+--> json-server --watch users.json --port=8081
+
+1.run the server
+Component - Home,Create,Edit
+
+--> npm install react-router-dom@6  - for routing purpose
+--> npm install axios
 
 
 
