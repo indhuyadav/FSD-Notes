@@ -58,3 +58,52 @@ browser as a debugger, search engine,
 js is a platform independent
 JS is a synchronous(single threading)
 
+-----------------------------------------------------------------------
+FSD using CSS there are three main parts:
+1.flex -moving html code with respect to x-axis
+2.grid -  html code with-main axis and y-axis
+3.mediaquery-execute web pages into multiple devices
+
+
+-->java there are three types
+1.j to SE
+2.j to EE
+3.j to ME
+
+
+
+
+
+
+
+FULL STACK APPLICATION:
+
+ReactJS                    Spring Boot            MySQL                       AWS
+    |                            |                 |                           |
+connected to spring boot
+read from spring boot      connected to mysql   stores the image path      S3 bucket
+                           read the data from mysql                                   
+                                                                           laptop.jpeg
+                                                                          watch.jpeg
+
+                                                
+-->we will provide public access to multimedia files with the help of amazon s3 bucket
+-->s3 bucket behaves like storage device for multimedia files
+-->we will store multimedia files path in database(MySQL, mongodB, CassandradB)
+-->spring boot framework behaves like backend
+-->backend application(spring boot) connect and reads data from database
+-->frontend application(reactjs) will connect to backend and reads data from backend application
+-->in full stack application reactjs behaves like frontend, springboot behaves like backend and mysql or mongodb behaves like database 
+
+
+MySQL commands:
+-->mysql -u root -p
+-->create database ecommbat;;
+-->use ecommbat;
+-->create table mobiles(id int primary key, pname varchar(20), pcost double, pimage varchar(200), pqty int);
+
+--> insert into mobiles(1, 'Mobile1',10,'image path', 10)
+-->select * from mobiles
+
+
+

@@ -1,0 +1,51 @@
+flex--moving html element with respect to x-axis(main-axis) called as CSS-flex
+
+display:flex
+
+
+CSS Grid: moving element with respect to both x-axis and y-axis called as css grid
+
+  |----------------------------------------------------|
+  |           Header                                   |
+  | ---------------------------------------------------|
+  |             |                    |                 |
+  | LeftMenu    |  Main              |     RightMenu   |
+  |             |                    |                 |
+  |----------------------------------------------------|
+  |                                                    |
+  |                                                    |
+  |            Footer                                  |
+  |----------------------------------------------------|
+
+Header 
+
+-->grid-column = 1/4
+-->grid-row = 1/2
+
+Main:
+
+-->grid-column = 2/3
+-->grid-row = 2/3
+
+LeftMenu:
+
+-->grid-column = 1/2
+-->grid-row = 2/3
+
+RightMenu:
+
+-->grid-column = 3/4
+-->grid-row = 2/3
+
+Footer:
+
+-->grid-column = 1/4
+-->grid-row = 3/4
+
+
+
+display: grid;
+grid-template-rows =
+grid-template-columns = 
+
+

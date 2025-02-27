@@ -591,7 +591,7 @@ Browser Routers in react:
 --> <outLet></outLet> -- used for place-holder.
 
 
---------------------------------
+------------------------------------------------------------
 what is single page application:-
 
 -->single page application is used to link one component to another component without a page reloading.
@@ -608,6 +608,32 @@ Component - Home,Create,Edit
 
 --> npm install react-router-dom@6  - for routing purpose
 --> npm install axios
+
+----------------------------------------------------------------
+Higher Order Component:
+
+-->it is an advance technique used to re-use component logic.
+-->HDC is an function which accepts another component has an argument and returns new component.
+-->it is used to avoid props drilling 
+
+
+syntax:
+
+let newComponent = HigherOrderComponent(OriginalComponent)
+
+
+
+-------------------------------Backend-classes-------------------------------
+component:
+
+-- section of web page
+-- can we create more than one component
+--can be reusable
+--can we communicate with one component to another component
+
+
+-return() function is used to write the html code
+-empty tag is used to encapsulate the html code
 
 
 
