@@ -89,7 +89,7 @@ read from spring boot      connected to mysql   stores the image path      S3 bu
                                                 
 -->we will provide public access to multimedia files with the help of amazon s3 bucket
 -->s3 bucket behaves like storage device for multimedia files
--->we will store multimedia files path in database(MySQL, mongodB, CassandradB)
+-->we will store multimedia files path in database(MySQL, mongo dB, Cassandra dB)
 -->spring boot framework behaves like backend
 -->backend application(spring boot) connect and reads data from database
 -->frontend application(reactjs) will connect to backend and reads data from backend application
@@ -98,7 +98,7 @@ read from spring boot      connected to mysql   stores the image path      S3 bu
 
 MySQL commands:
 -->mysql -u root -p
--->create database ecommbat;;
+-->create database ecommbat;
 -->use ecommbat;
 -->create table mobiles(id int primary key, pname varchar(20), pcost double, pimage varchar(200), pqty int);
 
@@ -107,3 +107,79 @@ MySQL commands:
 
 
 
+Spring Boot:
+
+-->spring boot is the backend java framework
+-->spring boot built on top of spring framework
+-->spring boot used to develop production ready applications with minimum configurations
+-->spring boot follows mvc(model view controller) design pattern 
+
+
+-->variables are behave like model in mvc
+-->controller are used to receive requests
+-->simple core java class behaves like controller
+-->service used to write business logic
+-->service layer will connect and receives data from databases
+
+
+MVC flow:
+
+-->view will send request to controller
+-->controller will bypass same request to service
+-->service will connect to MySQL database with the help of JPA repo
+
+-->JPA stands java persistence api
+-->JPA repository contains ready-made methods
+
+
+
+Annotations:
+
+-->annotations enhancing functionality
+-->annotations also changes the behaviour of the class
+
+1. @RestController  --> used to create controller in mvc application
+2. @Service  --> used to create service layer in mvc application
+3. @Entity  --> used to create replica of the table
+4. @id  --> used to represent primary key column
+5. @Column  -->used to represent table column
+6. @Repository -->
+
+Setter & Getters --> used to modify or read the table data
+toString() -->used to read table data in string format
+constructors --> used to initialize the table data
+
+
+
+Ex:
+
+@Entity
+public class Mobiles{
+  @id
+  @Column
+  private int id
+
+  @Column
+  private String pname
+  
+  @Column
+  private double pcost
+ 
+  @Column 
+  private String pimage
+  
+  @Column
+  private int pqty
+
+  Setters & Getters
+
+  toString()
+
+  Constructors
+
+}
+
+
+
+-->IDE stands for Integrated Development Environment
+-->STS stands for spring tool Suit
